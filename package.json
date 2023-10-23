@@ -1,0 +1,37 @@
+{
+  "name": "bee-admin",
+  "version": "1.0.0",
+  "description": "a docs for bee-tas-admin ",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "docs:clean-dev": "vitepress dev docs --clean-cache",
+    "docs:update-package": "yarn dlx vp-update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuYun-D/bee-admin-doc.git"
+  },
+  "keywords": [
+    "bee-admin",
+    "bee-ts-admin"
+  ],
+  "author": "GuYun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuYun-D/bee-admin-doc/issues"
+  },
+  "homepage": "https://github.com/GuYun-D/bee-admin-doc#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.15",
+    "@vuepress/client": "2.0.0-beta.67",
+    "vue": "^3.3.4",
+    "vuepress": "2.0.0-beta.67",
+    "vuepress-theme-hope": "2.0.0-beta.237"
+  }
+}
